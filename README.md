@@ -2,7 +2,7 @@
 Learn with loveable feeling :-) !!!!!!!!
 # mysql based connectivity
 #Eclipse IDE based
-#tomcat server used
+#tomcat 7.0 server used
 and also note please include suitable jar files as build path
 1)cos.jar
 2)cos-multipart.jar
