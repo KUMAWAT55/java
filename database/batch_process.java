@@ -22,3 +22,20 @@ public class batch {
 				stmt.setString(2, email);
 				stmt.setString(3, pass);
 				stmt.executeUpdate();
+					System.out.print("want more:");
+				String ans=sc.next();
+				if(ans.equals("n"))
+				{ sc.close();
+					break;
+				}
+				
+			}
+			
+		}catch(Exception e)
+		{
+			System.out.println(e);
+		}
+	}
+
+}
+
