@@ -15,3 +15,8 @@ public void doGet(HttpServletRequest request,
   
 PrintWriter out = response.getWriter();  
 response.setContentType("application/pdf");  
+response.setHeader("Content-disposition","inline; filename='javatpoint.pdf'");  
+  
+PDF p = new PDF(out);  
+Page p1 = new Page(p);  
+p1.add(new MoveTo(p, 200, 700)); 
