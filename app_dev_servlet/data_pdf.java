@@ -20,3 +20,13 @@ response.setHeader("Content-disposition","inline; filename='javatpoint.pdf'");
 PDF p = new PDF(out);  
 Page p1 = new Page(p);  
 p1.add(new MoveTo(p, 200, 700)); 
+p1.add(new Text(p, "www.javatpoint.com"));  
+p1.add(new Text(p, "by Sonoo Jaiswal"));  
+          
+p.add(p1);  
+p.setAuthor("Ian F. Darwin");  
+  
+p.writePDF();  
+  
+}  
+}  
