@@ -1,5 +1,5 @@
 # java
-Learn with loveable feeling :-) !!!!!!!!
+----------------------------------------------------------------------
 # mysql based connectivity
 #Eclipse IDE based
 #tomcat 7.0 server used
